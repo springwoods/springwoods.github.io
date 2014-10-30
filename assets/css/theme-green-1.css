@@ -1,0 +1,468 @@
+/* GREEN 1 */
+.wide .page-section.color,
+.boxed .page-section.color > .container {
+  background-color: #15c315;
+  border-color: #109510;
+}
+/* 1.5 - Typography (section title, links, page dividers)
+/* ========================================================================== */
+h1 .fa,
+h2 .fa,
+h3 .fa,
+h4 .fa,
+h5 .fa,
+h6 .fa,
+h1 .glyphicon,
+h2 .glyphicon,
+h3 .glyphicon,
+h4 .glyphicon,
+h5 .glyphicon,
+h6 .glyphicon {
+  color: #15c315;
+}
+/* Section title
+ * -------------------------------------------------------------------------- */
+.color .section-title:after {
+  background-color: #0b670b;
+}
+.color .section-title .fa-stack .fa {
+  color: #15c315;
+}
+.section-title .rhex {
+  background-color: #15c315;
+}
+/* Hexagon icon
+ * -------------------------------------------------------------------------- */
+.rhex {
+  background-color: #15c315;
+}
+/* Links, Link color
+ * -------------------------------------------------------------------------- */
+a:hover,
+a:active,
+a:focus {
+  color: #15c315;
+}
+.dropcap {
+  color: #15c315;
+}
+/* 1.6 - Buttons
+/* ========================================================================== */
+.btn-theme {
+  background: #15c315;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #15c315 0%, #109510 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #15c315), color-stop(100%, #109510));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #15c315 0%, #109510 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #15c315 0%, #109510 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #15c315 0%, #109510 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #15c315 0%, #109510 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@main-color', endColorstr='@main-color-d10', GradientType=0);
+  /* IE6-9 */
+  border-bottom-color: #0e7e0e;
+}
+.btn-theme:hover {
+  background: #109510;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #109510 0%, #0e7e0e 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #109510), color-stop(100%, #0e7e0e));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #109510 0%, #0e7e0e 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #109510 0%, #0e7e0e 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #109510 0%, #0e7e0e 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #109510 0%, #0e7e0e 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@main-color-d10', endColorstr='@main-color-d15', GradientType=0);
+  /* IE6-9 */
+  border-bottom-color: #0b670b;
+}
+.color .btn-theme {
+  border-left: 1px solid #0e7e0e;
+  border-right: 1px solid #0e7e0e;
+  border-top: 1px solid #0e7e0e;
+}
+.color .btn-theme:hover {
+  border-color: #0e7e0e;
+  border-bottom-color: #0b670b;
+}
+.btn-theme-transparent,
+.btn-theme-transparent:focus,
+.btn-theme-transparent:active {
+  border-color: #0b670b;
+}
+.btn-theme-grey {
+  color: #15c315;
+}
+/* 1.7 - Form / Input / Textarea / Select
+/* ========================================================================== */
+.form-control:focus {
+  border-color: #15c315;
+}
+.bootstrap-select > .selectpicker:focus {
+  border-color: #15c315;
+}
+.registration-form .tooltip-inner {
+  background-color: #15c315;
+}
+.registration-form .tooltip-arrow {
+  border-top-color: #15c315;
+}
+.registration-form .tooltip.top .tooltip-arrow {
+  border-top-color: #15c315;
+}
+/* 2.1 - Logo
+/* ========================================================================== */
+.logo span {
+  color: #15c315;
+}
+/* 2.3 - Navigation / superfish skin
+/* ========================================================================== */
+.sf-menu.nav > li > a:hover,
+.sf-menu.nav > li > a:focus {
+  background-color: #15c315;
+}
+.sf-menu a:hover {
+  background-color: #15c315;
+}
+.sf-menu li.active > a {
+  background-color: #15c315;
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+  border-top-color: #15c315;
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+  border-left-color: #15c315;
+}
+/* 2.5 - Mobile menu
+/* ========================================================================== */
+@media (max-width: 991px) {
+  .mobile-submenu {
+    background-color: #15c315;
+  }
+}
+/* --------------------------------------------------------------------------
+ * 3 - Content
+ * -------------------------------------------------------------------------- */
+/* 3.1 - Slider / Owl sliders
+/* ========================================================================== */
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #15c315;
+}
+#main-slider.owl-theme .owl-controls .owl-buttons .owl-prev:hover,
+#main-slider.owl-theme .owl-controls .owl-buttons .owl-next:hover {
+  color: #15c315;
+}
+/* Slider Caption
+ * -------------------------------------------------------------------------- */
+#main-slider .caption-title.main-title span {
+  color: #15c315;
+}
+#main-slider .slide-words .word {
+  color: #15c315;
+}
+#main-slider .slide-words .word-meta i {
+  color: #15c315;
+}
+/* -------------------------------------------------------------------------- */
+.form-header {
+  background-color: #15c315;
+}
+.btn-play .fa {
+  color: #15c315;
+}
+.btn-play:hover {
+  border-color: #15c315;
+}
+.btn-play:hover .fa {
+  background-color: #15c315;
+}
+.slide3:before {
+  background-color: rgba(21, 195, 21, 0.7);
+}
+/* 3.2 - Event description
+/* ========================================================================== */
+.event-description .media-heading {
+  color: #15c315;
+}
+/* 3.3 - Image carousel / Owl carousel
+/* ========================================================================== */
+.img-carousel .owl-controls .owl-page span,
+.img-carousel .owl-controls .owl-buttons div {
+  background-color: #15c315;
+}
+/* 3.4 - Partners carousel / Owl carousel
+/* ========================================================================== */
+.partners-carousel .owl-carousel div a {
+  border-color: #0b670b;
+}
+.partners-carousel .owl-prev,
+.partners-carousel .owl-next {
+  border-color: #15c315;
+  color: #15c315;
+}
+.partners-carousel .owl-prev .fa,
+.partners-carousel .owl-next .fa {
+  color: #15c315;
+}
+.partners-carousel .owl-prev:hover,
+.partners-carousel .owl-next:hover {
+  border-color: #0b670b;
+  color: #0b670b;
+}
+.partners-carousel .owl-prev:hover .fa,
+.partners-carousel .owl-next:hover .fa {
+  color: #0b670b;
+}
+/* 3.6 - Schedule
+/* ========================================================================== */
+.schedule-wrapper .schedule-tabs.lv2 .nav > li.active > a {
+  color: #15c315;
+}
+.schedule-wrapper .schedule-tabs.lv2 .nav > li.active:before {
+  background-color: #15c315;
+}
+/* 3.7 - FAQ
+/* ========================================================================== */
+.row.faq .tab-content {
+  border-color: #15c315;
+}
+@media (min-width: 768px) {
+  .row.faq .nav li.active:before {
+    border-right-color: #15c315;
+  }
+  .color .row.faq .nav li.active:after {
+    border-right-color: #15c315;
+  }
+}
+.row.faq .tab-content .fa {
+  color: #15c315;
+}
+.color .row.faq .nav li a {
+  border-color: #109510;
+}
+.row.faq .nav li.active a,
+.row.faq .nav li a:hover {
+  border-color: #15c315;
+  color: #15c315;
+}
+/* 3.8 - Blog / Post
+/* ========================================================================== */
+.post-title a:hover {
+  color: #15c315;
+}
+.post-header .post-meta {
+  color: #15c315;
+}
+.post-media .post-meta .day {
+  color: #15c315;
+}
+.post-header .post-meta a:hover {
+  color: #15c315;
+}
+.post-readmore a:hover,
+.post-readmore a:focus {
+  color: #15c315;
+}
+.about-the-author .media-heading {
+  color: #15c315;
+}
+.staff-tabs > ul > li.active > a,
+.staff-tabs > ul > li > a:hover {
+  background: none repeat scroll 0 0 #15c315;
+  border-bottom-color: #0b670b;
+}
+.timeline .post-title {
+  color: #15c315;
+}
+.timeline .post-title a {
+  color: #15c315;
+}
+.timeline .post-meta a .fa {
+  color: #15c315;
+}
+.timeline .employee-projects li:before {
+  color: #15c315;
+}
+/* 3.9 - Comments
+/* ========================================================================== */
+.comments-form .block-title {
+  color: #15c315 !important;
+}
+/* 3.10 - Pagination / Pager
+/* ========================================================================== */
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #15c315;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #15c315;
+  border-color: #15c315;
+}
+/* Categories
+/* ========================================================================== */
+.widget.categories li.active a,
+.widget.categories li a:hover {
+  background-color: #15c315;
+}
+/* flickr feed
+/* ========================================================================== */
+.widget.flickr-feed li a:hover {
+  border-color: #15c315;
+}
+/* Tag-cloud
+/* ========================================================================== */
+.tag-cloud a:hover {
+  background-color: #15c315;
+  border-color: #15c315;
+}
+/* 3.12 - Thumbnails / Features
+/* ========================================================================== */
+.thumbnail.hover,
+.thumbnail:hover {
+  border-color: #15c315;
+}
+/* Thumbnail caption
+ * -------------------------------------------------------------------------- */
+.thumbnail .caption.hovered {
+  background-color: rgba(21, 195, 21, 0.6);
+}
+/* Caption elements
+ * -------------------------------------------------------------------------- */
+.caption-category a {
+  color: #15c315;
+}
+.caption-redmore {
+  color: #15c315;
+}
+/* 3.13 - Media / Testimonials
+/* ========================================================================== */
+.testimonial .media-heading small {
+  color: #15c315;
+}
+.testimonials.owl-theme .owl-dots .owl-dot span {
+  background-color: #15c315;
+}
+.testimonials.owl-theme .owl-dots .owl-dot.active span,
+.testimonials.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #0e7e0e;
+}
+/* 3.14 - Difference
+/* ========================================================================== */
+.differences > div:hover .difference-head i {
+  border-color: #15c315;
+  color: #15c315;
+}
+.difference-head div {
+  color: #15c315;
+}
+/* 3.15 - Isotope
+/* ========================================================================== */
+.projects .caption-buttons a:hover {
+  color: #15c315;
+}
+/* Filter
+/* ========================================================================== */
+.filtrable .current a,
+.filtrable .active a,
+.filtrable .current a:hover,
+.filtrable .active a:hover,
+.filtrable a:hover {
+  background: #15c315;
+  border-bottom: 2px solid #0b670b;
+}
+/* 3.17 - Features
+/* ========================================================================== */
+.feature:hover i {
+  border-color: #15c315;
+  color: #15c315;
+}
+/* 3.18 - Featured Projects
+/* ========================================================================== */
+.featured-info {
+  background-color: #15c315;
+  background-color: rgba(21, 195, 21, 0.9);
+  border-color: #0b670b;
+}
+/* 4 - Footer
+/* ========================================================================== */
+.footer a:hover {
+  color: #15c315;
+}
+.footer .recent-news span {
+  color: #15c315;
+}
+.footer .recent-tweets small {
+  color: #15c315;
+}
+.footer-widget.instagram a:hover img {
+  border-color: #15c315;
+}
+/* 5 - Widgets / Shortcodes
+/* ========================================================================== */
+.sidebar .widget-title {
+  color: #15c315;
+}
+.widget-title:before {
+  background-color: #15c315;
+}
+/* 5.2 - Contact form / af-form
+/* ========================================================================== */
+#af-form .alert {
+  border-color: #15c315;
+  background-color: #15c315;
+}
+/* 5.4 - Price table
+/* ========================================================================== */
+.price-value {
+  background-color: #15c315;
+  border-bottom-color: #0b670b;
+}
+.price-table-row i {
+  color: #15c315;
+}
+.price-table:hover,
+.price-table.featured {
+  border-color: #15c315;
+}
+.price-table.featured:before {
+  background-color: #15c315;
+}
+/* 5.5 - Google map
+/* ========================================================================== */
+.container.gmap-background .on-gmap.color {
+  background-color: #15c315;
+}
+/* 5.8 - Back to top button
+/* ========================================================================== */
+.to-top:hover {
+  color: #15c315;
+}
+/* --------------------------------------------------------------------------
+ * 6 - Helper Classes
+ * -------------------------------------------------------------------------- */
+.btn-preview-light,
+.btn-preview-light:hover {
+  background-color: #15c315;
+}
