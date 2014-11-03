@@ -1,0 +1,481 @@
+/* RED 2 */
+
+@main-color: #cd2016;
+@main-color-d10: darken(@main-color, 10%);
+@main-color-d15: darken(@main-color, 15%);
+@main-color-d20: darken(@main-color, 20%);
+
+.wide .page-section.color,
+.boxed .page-section.color > .container {
+  background-color: @main-color;
+  border-color: @main-color-d10;
+}
+/* 1.5 - Typography (section title, links, page dividers)
+/* ========================================================================== */
+
+h1 .fa, h2 .fa, h3 .fa, h4 .fa, h5 .fa, h6 .fa,
+h1 .glyphicon, h2 .glyphicon, h3 .glyphicon,
+h4 .glyphicon, h5 .glyphicon, h6 .glyphicon {
+  color: @main-color;
+}
+
+/* Section title
+ * -------------------------------------------------------------------------- */
+
+.color .section-title:after {
+  background-color: @main-color-d20;
+}
+.color .section-title .fa-stack .fa {color: @main-color;}
+.section-title .rhex {background-color: @main-color;}
+
+/* Hexagon icon
+ * -------------------------------------------------------------------------- */
+
+.rhex {
+  background-color: @main-color;
+}
+
+/* Links, Link color
+ * -------------------------------------------------------------------------- */
+
+a:hover,
+a:active,
+a:focus {color: @main-color;}
+.dropcap {
+  color: @main-color;
+}
+
+/* 1.6 - Buttons
+/* ========================================================================== */
+
+.btn-theme {
+  background: rgb(red(@main-color), green(@main-color), blue(@main-color)); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(red(@main-color), green(@main-color), blue(@main-color),1) 0%, rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(red(@main-color), green(@main-color), blue(@main-color),1)), color-stop(100%,rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(red(@main-color), green(@main-color), blue(@main-color),1) 0%,rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(red(@main-color), green(@main-color), blue(@main-color),1) 0%,rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(red(@main-color), green(@main-color), blue(@main-color),1) 0%,rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(red(@main-color), green(@main-color), blue(@main-color),1) 0%,rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@main-color', endColorstr='@main-color-d10',GradientType=0 ); /* IE6-9 */
+  border-bottom-color: @main-color-d15;
+}
+.btn-theme:hover {
+  background: rgb(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10)); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1) 0%, rgba(red(@main-color-d15), green(@main-color-d15), blue(@main-color-d15),1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1)), color-stop(100%,rgba(red(@main-color-d15), green(@main-color-d15), blue(@main-color-d15),1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1) 0%,rgba(red(@main-color-d15), green(@main-color-d15), blue(@main-color-d15),1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1) 0%,rgba(red(@main-color-d15), green(@main-color-d15), blue(@main-color-d15),1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1) 0%,rgba(red(@main-color-d15), green(@main-color-d15), blue(@main-color-d15),1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(red(@main-color-d10), green(@main-color-d10), blue(@main-color-d10),1) 0%,rgba(red(@main-color-d15), green(@main-color-d15), blue(@main-color-d15),1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@main-color-d10', endColorstr='@main-color-d15',GradientType=0 ); /* IE6-9 */
+  border-bottom-color: @main-color-d20;
+}
+.color .btn-theme {
+  border-left: 1px solid @main-color-d15;
+  border-right: 1px solid @main-color-d15;
+  border-top: 1px solid @main-color-d15;
+}
+.color .btn-theme:hover {
+  border-color: @main-color-d15;
+  border-bottom-color: @main-color-d20;
+}
+.btn-theme-transparent,
+.btn-theme-transparent:focus,
+.btn-theme-transparent:active{
+  border-color: @main-color-d20;
+}
+.btn-theme-grey {
+  color: @main-color;
+}
+
+/* 1.7 - Form / Input / Textarea / Select
+/* ========================================================================== */
+
+.form-control:focus {
+  border-color: @main-color;
+}
+.bootstrap-select > .selectpicker:focus {border-color: @main-color;}
+.registration-form .tooltip-inner {background-color: @main-color; }
+.registration-form .tooltip-arrow {border-top-color: @main-color;}
+.registration-form .tooltip.top .tooltip-arrow {border-top-color: @main-color;}
+/* 2.1 - Logo
+/* ========================================================================== */
+
+.logo span {
+  color: @main-color;
+}
+
+/* 2.3 - Navigation / superfish skin
+/* ========================================================================== */
+
+.sf-menu.nav > li > a:hover, /* bs3 reset */
+.sf-menu.nav > li > a:focus /* bs3 reset */ {
+  background-color: @main-color;
+}
+
+.sf-menu a:hover {
+  background-color: @main-color;
+}
+.sf-menu li.active > a {
+  background-color: @main-color;
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+  border-top-color: @main-color;
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+  border-left-color: @main-color;
+}
+
+/* 2.5 - Mobile menu
+/* ========================================================================== */
+
+@media (max-width: 991px) {
+  .mobile-submenu {
+    background-color: @main-color;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+ * 3 - Content
+ * -------------------------------------------------------------------------- */
+
+
+
+/* 3.1 - Slider / Owl sliders
+/* ========================================================================== */
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: @main-color;
+}
+#main-slider.owl-theme .owl-controls .owl-buttons .owl-prev:hover,
+#main-slider.owl-theme .owl-controls .owl-buttons .owl-next:hover {color: @main-color;}
+/* Slider Caption
+ * -------------------------------------------------------------------------- */
+
+#main-slider .caption-title.main-title span {
+  color: @main-color;
+}
+#main-slider .slide-words .word {
+  color: @main-color;
+}
+#main-slider .slide-words .word-meta i {
+  color: @main-color;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.form-header {
+  background-color: @main-color;
+}
+.btn-play .fa {
+  color: @main-color;
+}
+.btn-play:hover {border-color: @main-color;}
+.btn-play:hover .fa {background-color: @main-color;}
+.slide3:before {
+  background-color: rgba(red(@main-color), green(@main-color), blue(@main-color), .7);
+}
+
+/* 3.2 - Event description
+/* ========================================================================== */
+
+.event-description .media-heading {
+  color: @main-color;
+}
+/* 3.3 - Image carousel / Owl carousel
+/* ========================================================================== */
+
+.img-carousel .owl-controls .owl-page span,
+.img-carousel .owl-controls .owl-buttons div {background-color: @main-color;}
+
+/* 3.4 - Partners carousel / Owl carousel
+/* ========================================================================== */
+
+.partners-carousel .owl-carousel div a {
+  border-color: @main-color-d20;
+}
+.partners-carousel .owl-prev,
+.partners-carousel .owl-next {
+  border-color: @main-color;
+  color: @main-color;
+}
+.partners-carousel .owl-prev .fa,
+.partners-carousel .owl-next .fa {
+  color: @main-color;
+}
+.partners-carousel .owl-prev:hover ,
+.partners-carousel .owl-next:hover  {
+  border-color: @main-color-d20;
+  color: @main-color-d20;
+}
+.partners-carousel .owl-prev:hover .fa,
+.partners-carousel .owl-next:hover  .fa {
+  color: @main-color-d20;
+}
+
+/* 3.6 - Schedule
+/* ========================================================================== */
+.schedule-wrapper .schedule-tabs.lv2 .nav > li.active > a {
+  color: @main-color;
+}
+.schedule-wrapper .schedule-tabs.lv2 .nav > li.active:before {
+  background-color: @main-color;
+}
+
+/* 3.7 - FAQ
+/* ========================================================================== */
+
+.row.faq .tab-content {
+  border-color: @main-color;
+}
+@media (min-width: 768px) {
+  .row.faq .nav li.active:before { border-right-color: @main-color; }
+  .color .row.faq .nav li.active:after {border-right-color: @main-color;}
+}
+.row.faq .tab-content .fa {
+  color: @main-color;
+}
+.color .row.faq .nav li a {
+  border-color: @main-color-d10;
+}
+.row.faq .nav li.active a,
+.row.faq .nav li a:hover {
+  border-color: @main-color;
+  color: @main-color;
+}
+
+/* 3.8 - Blog / Post
+/* ========================================================================== */
+
+.post-title a:hover {color: @main-color;}
+.post-header .post-meta {
+  color: @main-color;
+}
+.post-media .post-meta .day {
+  color: @main-color;
+}
+.post-header .post-meta a:hover {color: @main-color;}
+.post-readmore a:hover,
+.post-readmore a:focus {
+  color: @main-color;
+}
+
+.about-the-author .media-heading {
+  color: @main-color;
+}
+.staff-tabs > ul > li.active > a,
+.staff-tabs > ul > li > a:hover {
+  background: none repeat scroll 0 0 @main-color;
+  border-bottom-color: @main-color-d20;
+}
+.timeline .post-title {
+  color: @main-color;
+}
+.timeline .post-title a {color: @main-color;}
+
+.timeline .post-meta a .fa {color: @main-color;}
+.timeline .employee-projects li:before {
+  color: @main-color;
+}
+/* 3.9 - Comments
+/* ========================================================================== */
+
+.comments-form .block-title {
+  color: @main-color !important;
+}
+
+/* 3.10 - Pagination / Pager
+/* ========================================================================== */
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: @main-color;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: @main-color;
+  border-color: @main-color;
+}
+/* Categories
+/* ========================================================================== */
+
+.widget.categories li.active a,
+.widget.categories li a:hover {
+  background-color: @main-color;
+}
+
+/* flickr feed
+/* ========================================================================== */
+
+.widget.flickr-feed li a:hover {
+  border-color: @main-color;
+}
+
+/* Tag-cloud
+/* ========================================================================== */
+
+.tag-cloud a:hover {
+  background-color: @main-color;
+  border-color: @main-color;
+}
+
+/* 3.12 - Thumbnails / Features
+/* ========================================================================== */
+
+.thumbnail.hover,
+.thumbnail:hover {
+  border-color: @main-color;
+}
+
+/* Thumbnail caption
+ * -------------------------------------------------------------------------- */
+
+.thumbnail .caption.hovered {
+  background-color: rgba(red(@main-color), green(@main-color), blue(@main-color), 0.60);
+}
+
+/* Caption elements
+ * -------------------------------------------------------------------------- */
+
+.caption-category a {color:@main-color;}
+
+.caption-redmore {
+  color: @main-color;
+}
+
+/* 3.13 - Media / Testimonials
+/* ========================================================================== */
+
+.testimonial .media-heading small {
+  color: @main-color;
+}
+.testimonials.owl-theme .owl-dots .owl-dot span {
+  background-color: @main-color;
+}
+.testimonials.owl-theme .owl-dots .owl-dot.active span,
+.testimonials.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: @main-color-d15;
+}
+
+/* 3.14 - Difference
+/* ========================================================================== */
+
+.differences > div:hover .difference-head i {
+  border-color: @main-color;
+  color: @main-color;
+}
+.difference-head div {
+  color: @main-color;
+}
+
+/* 3.15 - Isotope
+/* ========================================================================== */
+
+.projects .caption-buttons a:hover {
+  color: @main-color;
+}
+/* Filter
+/* ========================================================================== */
+
+.filtrable .current a,
+.filtrable .active a,
+.filtrable .current a:hover,
+.filtrable .active a:hover,
+.filtrable a:hover {
+  background: @main-color;
+  border-bottom: 2px solid @main-color-d20;
+}
+
+/* 3.17 - Features
+/* ========================================================================== */
+
+.feature:hover i {
+  border-color: @main-color;
+  color: @main-color;
+}
+/* 3.18 - Featured Projects
+/* ========================================================================== */
+
+.featured-info {
+  background-color: @main-color;
+  background-color: rgba(red(@main-color), green(@main-color), blue(@main-color), 0.9);
+  border-color: @main-color-d20;
+}
+/* 4 - Footer
+/* ========================================================================== */
+
+.footer a:hover {color: @main-color;}
+
+.footer .recent-news span {
+  color: @main-color;
+}
+
+.footer .recent-tweets small {color: @main-color;}
+
+.footer-widget.instagram a:hover img {
+  border-color: @main-color;
+}
+/* 5 - Widgets / Shortcodes
+/* ========================================================================== */
+
+.sidebar .widget-title {
+  color: @main-color;
+}
+.widget-title:before {
+  background-color: @main-color;
+}
+/* 5.2 - Contact form / af-form
+/* ========================================================================== */
+#af-form .alert {
+  border-color: @main-color;
+  background-color: @main-color;
+}
+/* 5.4 - Price table
+/* ========================================================================== */
+
+.price-value {
+  background-color: @main-color;
+  border-bottom-color: @main-color-d20;
+}
+.price-table-row i {color: @main-color;}
+
+.price-table:hover,
+.price-table.featured {
+  border-color: @main-color;
+}
+.price-table.featured:before {
+  background-color: @main-color;
+}
+/* 5.5 - Google map
+/* ========================================================================== */
+
+.container.gmap-background .on-gmap.color {
+  background-color: @main-color;
+}
+
+/* 5.8 - Back to top button
+/* ========================================================================== */
+
+.to-top:hover {
+  color: @main-color;
+}
+
+/* --------------------------------------------------------------------------
+ * 6 - Helper Classes
+ * -------------------------------------------------------------------------- */
+
+.btn-preview-light,
+.btn-preview-light:hover {
+  background-color: @main-color;
+}

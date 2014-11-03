@@ -1,0 +1,468 @@
+/* CUMIN */
+.wide .page-section.color,
+.boxed .page-section.color > .container {
+  background-color: #c0b188;
+  border-color: #ae9b67;
+}
+/* 1.5 - Typography (section title, links, page dividers)
+/* ========================================================================== */
+h1 .fa,
+h2 .fa,
+h3 .fa,
+h4 .fa,
+h5 .fa,
+h6 .fa,
+h1 .glyphicon,
+h2 .glyphicon,
+h3 .glyphicon,
+h4 .glyphicon,
+h5 .glyphicon,
+h6 .glyphicon {
+  color: #c0b188;
+}
+/* Section title
+ * -------------------------------------------------------------------------- */
+.color .section-title:after {
+  background-color: #94814e;
+}
+.color .section-title .fa-stack .fa {
+  color: #c0b188;
+}
+.section-title .rhex {
+  background-color: #c0b188;
+}
+/* Hexagon icon
+ * -------------------------------------------------------------------------- */
+.rhex {
+  background-color: #c0b188;
+}
+/* Links, Link color
+ * -------------------------------------------------------------------------- */
+a:hover,
+a:active,
+a:focus {
+  color: #c0b188;
+}
+.dropcap {
+  color: #c0b188;
+}
+/* 1.6 - Buttons
+/* ========================================================================== */
+.btn-theme {
+  background: #c0b188;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #c0b188 0%, #ae9b67 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c0b188), color-stop(100%, #ae9b67));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #c0b188 0%, #ae9b67 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #c0b188 0%, #ae9b67 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #c0b188 0%, #ae9b67 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #c0b188 0%, #ae9b67 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@main-color', endColorstr='@main-color-d10', GradientType=0);
+  /* IE6-9 */
+  border-bottom-color: #a49057;
+}
+.btn-theme:hover {
+  background: #ae9b67;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ae9b67 0%, #a49057 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ae9b67), color-stop(100%, #a49057));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ae9b67 0%, #a49057 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ae9b67 0%, #a49057 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ae9b67 0%, #a49057 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ae9b67 0%, #a49057 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@main-color-d10', endColorstr='@main-color-d15', GradientType=0);
+  /* IE6-9 */
+  border-bottom-color: #94814e;
+}
+.color .btn-theme {
+  border-left: 1px solid #a49057;
+  border-right: 1px solid #a49057;
+  border-top: 1px solid #a49057;
+}
+.color .btn-theme:hover {
+  border-color: #a49057;
+  border-bottom-color: #94814e;
+}
+.btn-theme-transparent,
+.btn-theme-transparent:focus,
+.btn-theme-transparent:active {
+  border-color: #94814e;
+}
+.btn-theme-grey {
+  color: #c0b188;
+}
+/* 1.7 - Form / Input / Textarea / Select
+/* ========================================================================== */
+.form-control:focus {
+  border-color: #c0b188;
+}
+.bootstrap-select > .selectpicker:focus {
+  border-color: #c0b188;
+}
+.registration-form .tooltip-inner {
+  background-color: #c0b188;
+}
+.registration-form .tooltip-arrow {
+  border-top-color: #c0b188;
+}
+.registration-form .tooltip.top .tooltip-arrow {
+  border-top-color: #c0b188;
+}
+/* 2.1 - Logo
+/* ========================================================================== */
+.logo span {
+  color: #c0b188;
+}
+/* 2.3 - Navigation / superfish skin
+/* ========================================================================== */
+.sf-menu.nav > li > a:hover,
+.sf-menu.nav > li > a:focus {
+  background-color: #c0b188;
+}
+.sf-menu a:hover {
+  background-color: #c0b188;
+}
+.sf-menu li.active > a {
+  background-color: #c0b188;
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+  border-top-color: #c0b188;
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+  border-left-color: #c0b188;
+}
+/* 2.5 - Mobile menu
+/* ========================================================================== */
+@media (max-width: 991px) {
+  .mobile-submenu {
+    background-color: #c0b188;
+  }
+}
+/* --------------------------------------------------------------------------
+ * 3 - Content
+ * -------------------------------------------------------------------------- */
+/* 3.1 - Slider / Owl sliders
+/* ========================================================================== */
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #c0b188;
+}
+#main-slider.owl-theme .owl-controls .owl-buttons .owl-prev:hover,
+#main-slider.owl-theme .owl-controls .owl-buttons .owl-next:hover {
+  color: #c0b188;
+}
+/* Slider Caption
+ * -------------------------------------------------------------------------- */
+#main-slider .caption-title.main-title span {
+  color: #c0b188;
+}
+#main-slider .slide-words .word {
+  color: #c0b188;
+}
+#main-slider .slide-words .word-meta i {
+  color: #c0b188;
+}
+/* -------------------------------------------------------------------------- */
+.form-header {
+  background-color: #c0b188;
+}
+.btn-play .fa {
+  color: #c0b188;
+}
+.btn-play:hover {
+  border-color: #c0b188;
+}
+.btn-play:hover .fa {
+  background-color: #c0b188;
+}
+.slide3:before {
+  background-color: rgba(192, 177, 136, 0.7);
+}
+/* 3.2 - Event description
+/* ========================================================================== */
+.event-description .media-heading {
+  color: #c0b188;
+}
+/* 3.3 - Image carousel / Owl carousel
+/* ========================================================================== */
+.img-carousel .owl-controls .owl-page span,
+.img-carousel .owl-controls .owl-buttons div {
+  background-color: #c0b188;
+}
+/* 3.4 - Partners carousel / Owl carousel
+/* ========================================================================== */
+.partners-carousel .owl-carousel div a {
+  border-color: #94814e;
+}
+.partners-carousel .owl-prev,
+.partners-carousel .owl-next {
+  border-color: #c0b188;
+  color: #c0b188;
+}
+.partners-carousel .owl-prev .fa,
+.partners-carousel .owl-next .fa {
+  color: #c0b188;
+}
+.partners-carousel .owl-prev:hover,
+.partners-carousel .owl-next:hover {
+  border-color: #94814e;
+  color: #94814e;
+}
+.partners-carousel .owl-prev:hover .fa,
+.partners-carousel .owl-next:hover .fa {
+  color: #94814e;
+}
+/* 3.6 - Schedule
+/* ========================================================================== */
+.schedule-wrapper .schedule-tabs.lv2 .nav > li.active > a {
+  color: #c0b188;
+}
+.schedule-wrapper .schedule-tabs.lv2 .nav > li.active:before {
+  background-color: #c0b188;
+}
+/* 3.7 - FAQ
+/* ========================================================================== */
+.row.faq .tab-content {
+  border-color: #c0b188;
+}
+@media (min-width: 768px) {
+  .row.faq .nav li.active:before {
+    border-right-color: #c0b188;
+  }
+  .color .row.faq .nav li.active:after {
+    border-right-color: #c0b188;
+  }
+}
+.row.faq .tab-content .fa {
+  color: #c0b188;
+}
+.color .row.faq .nav li a {
+  border-color: #ae9b67;
+}
+.row.faq .nav li.active a,
+.row.faq .nav li a:hover {
+  border-color: #c0b188;
+  color: #c0b188;
+}
+/* 3.8 - Blog / Post
+/* ========================================================================== */
+.post-title a:hover {
+  color: #c0b188;
+}
+.post-header .post-meta {
+  color: #c0b188;
+}
+.post-media .post-meta .day {
+  color: #c0b188;
+}
+.post-header .post-meta a:hover {
+  color: #c0b188;
+}
+.post-readmore a:hover,
+.post-readmore a:focus {
+  color: #c0b188;
+}
+.about-the-author .media-heading {
+  color: #c0b188;
+}
+.staff-tabs > ul > li.active > a,
+.staff-tabs > ul > li > a:hover {
+  background: none repeat scroll 0 0 #c0b188;
+  border-bottom-color: #94814e;
+}
+.timeline .post-title {
+  color: #c0b188;
+}
+.timeline .post-title a {
+  color: #c0b188;
+}
+.timeline .post-meta a .fa {
+  color: #c0b188;
+}
+.timeline .employee-projects li:before {
+  color: #c0b188;
+}
+/* 3.9 - Comments
+/* ========================================================================== */
+.comments-form .block-title {
+  color: #c0b188 !important;
+}
+/* 3.10 - Pagination / Pager
+/* ========================================================================== */
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #c0b188;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #c0b188;
+  border-color: #c0b188;
+}
+/* Categories
+/* ========================================================================== */
+.widget.categories li.active a,
+.widget.categories li a:hover {
+  background-color: #c0b188;
+}
+/* flickr feed
+/* ========================================================================== */
+.widget.flickr-feed li a:hover {
+  border-color: #c0b188;
+}
+/* Tag-cloud
+/* ========================================================================== */
+.tag-cloud a:hover {
+  background-color: #c0b188;
+  border-color: #c0b188;
+}
+/* 3.12 - Thumbnails / Features
+/* ========================================================================== */
+.thumbnail.hover,
+.thumbnail:hover {
+  border-color: #c0b188;
+}
+/* Thumbnail caption
+ * -------------------------------------------------------------------------- */
+.thumbnail .caption.hovered {
+  background-color: rgba(192, 177, 136, 0.6);
+}
+/* Caption elements
+ * -------------------------------------------------------------------------- */
+.caption-category a {
+  color: #c0b188;
+}
+.caption-redmore {
+  color: #c0b188;
+}
+/* 3.13 - Media / Testimonials
+/* ========================================================================== */
+.testimonial .media-heading small {
+  color: #c0b188;
+}
+.testimonials.owl-theme .owl-dots .owl-dot span {
+  background-color: #c0b188;
+}
+.testimonials.owl-theme .owl-dots .owl-dot.active span,
+.testimonials.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #a49057;
+}
+/* 3.14 - Difference
+/* ========================================================================== */
+.differences > div:hover .difference-head i {
+  border-color: #c0b188;
+  color: #c0b188;
+}
+.difference-head div {
+  color: #c0b188;
+}
+/* 3.15 - Isotope
+/* ========================================================================== */
+.projects .caption-buttons a:hover {
+  color: #c0b188;
+}
+/* Filter
+/* ========================================================================== */
+.filtrable .current a,
+.filtrable .active a,
+.filtrable .current a:hover,
+.filtrable .active a:hover,
+.filtrable a:hover {
+  background: #c0b188;
+  border-bottom: 2px solid #94814e;
+}
+/* 3.17 - Features
+/* ========================================================================== */
+.feature:hover i {
+  border-color: #c0b188;
+  color: #c0b188;
+}
+/* 3.18 - Featured Projects
+/* ========================================================================== */
+.featured-info {
+  background-color: #c0b188;
+  background-color: rgba(192, 177, 136, 0.9);
+  border-color: #94814e;
+}
+/* 4 - Footer
+/* ========================================================================== */
+.footer a:hover {
+  color: #c0b188;
+}
+.footer .recent-news span {
+  color: #c0b188;
+}
+.footer .recent-tweets small {
+  color: #c0b188;
+}
+.footer-widget.instagram a:hover img {
+  border-color: #c0b188;
+}
+/* 5 - Widgets / Shortcodes
+/* ========================================================================== */
+.sidebar .widget-title {
+  color: #c0b188;
+}
+.widget-title:before {
+  background-color: #c0b188;
+}
+/* 5.2 - Contact form / af-form
+/* ========================================================================== */
+#af-form .alert {
+  border-color: #c0b188;
+  background-color: #c0b188;
+}
+/* 5.4 - Price table
+/* ========================================================================== */
+.price-value {
+  background-color: #c0b188;
+  border-bottom-color: #94814e;
+}
+.price-table-row i {
+  color: #c0b188;
+}
+.price-table:hover,
+.price-table.featured {
+  border-color: #c0b188;
+}
+.price-table.featured:before {
+  background-color: #c0b188;
+}
+/* 5.5 - Google map
+/* ========================================================================== */
+.container.gmap-background .on-gmap.color {
+  background-color: #c0b188;
+}
+/* 5.8 - Back to top button
+/* ========================================================================== */
+.to-top:hover {
+  color: #c0b188;
+}
+/* --------------------------------------------------------------------------
+ * 6 - Helper Classes
+ * -------------------------------------------------------------------------- */
+.btn-preview-light,
+.btn-preview-light:hover {
+  background-color: #c0b188;
+}
