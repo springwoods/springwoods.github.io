@@ -584,21 +584,39 @@
                     <!-- Contact form -->
                     <form name="af-form" method="post" action="http://forms.brace.io/npsystem.in@gmail.com" class="af-form row" id="af-form">
 
+					
+		<div class="form-group">
+            <label for="exampleInputName">Name</label>
+            <input name="name" type="name" class="form-control" id="exampleInputName" placeholder="Enter name">
+        </div>
+		<div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleTextArea">Some text</label>
+            <textarea name="message" class="form-control" rows="3"></textarea>    
+        </div>
+		
                         <div class="col-sm-12 af-outer af-required">
                             <div class="form-group af-inner">
-                                <input type="text" name="name" id="name" value="" size="30" data-toggle="tooltip" title="" class="form-control placeholder" data-original-title="Name is required">
+								<label for="exampleInputName">Name</label>
+                                <input type="text" name="name" id="exampleInputName" value="" size="30" data-toggle="tooltip" title="" class="form-control" placeholder="Enter name" data-original-title="Name is required">
                             </div>
                         </div>
 
                         <div class="col-sm-12 af-outer af-required">
                             <div class="form-group af-inner">
-                                <input type="text" name="_replyto" id="email" value="" size="30" data-toggle="tooltip" title="" class="form-control placeholder" data-original-title="Email is required">
+								<label for="exampleInputEmail1">Email address</label>
+                                <input type="text" name="_replyto" id="exampleInputEmail1" value="Email-ID" size="30" data-toggle="tooltip" title="" class="form-control" placeholder="Enter email" data-original-title="Email is required">
                             </div>
                         </div>
 
                         <div class="col-sm-12 af-outer af-required">
                             <div class="form-group af-inner">
-                                <textarea name="message" id="input-message" rows="4" cols="50" data-toggle="tooltip" title="" class="form-control placeholder" data-original-title="Message is required"></textarea>
+								<label for="exampleTextArea">Some text</label>
+                                <textarea name="message" id="input-message" rows="4" cols="50" data-toggle="tooltip" title="" class="form-control" data-original-title="Message is required"></textarea>
                             </div>
                         </div>
 
