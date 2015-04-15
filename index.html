@@ -705,16 +705,19 @@
                         </div>
                     </div>
 
-                    <!-- Google map 
+                    <!-- Google map -->
                     <div class="google-map">
                         <div id="map-canvas"></div>
+<address>
+1600 Pennsylvania Avenue NW Washington, DC 20500
+</address>
                     </div>
-                    /Google map -->
-					<div class="map">
+                    <!--/Google map -->
+					<!--<div class="map">
 					   			<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.692077788908!2d77.57980199999999!3d12.99153600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae163e7b598b53%3A0x7e5b2a2378636db9!2sNSVM+%26+Associates+Chartered+Accountants!5e0!3m2!1sen!2sin!4v1403864754773">
     </iframe>
-					   		</div>
+					   		</div>-->
 		
 
                 </div>
@@ -906,6 +909,8 @@
 
 
 <script type="text/javascript">
+
+
     jQuery(document).ready(function () {
         theme.init();
         theme.initMainSlider();
@@ -915,6 +920,10 @@
         theme.initTestimonials();
         theme.initFeaturedProjects();
         theme.initGoogleMap();
+        $('address').each(function () {
+        var link = "<a href='http://maps.google.com/maps?q=" + encodeURIComponent( $(this).text() ) + "' target='_blank'>" + $(this).text() + "</a>";
+        $(this).html(link);
+    });
     });
     jQuery(window).load(function () {
         theme.initAnimation();
